@@ -1,0 +1,79 @@
+body{
+    background-image:url("https://img.freepik.com/free-vector/recruitment-agency-searching-job-applicants_1262-19873.jpg?w=1800&t=st=1688790465~exp=1688791065~hmac=fec1caaa9c4cbdc468c10a33280b57df14f6ebdd7305eb994863dbd6458885c9");
+    display: inline-flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding-bottom: 30px;
+}
+.app {
+    padding-top: 150px;
+    padding-left: 900px;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  input[type="text"],
+  input[type="password"] {
+    height: 85px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+
+ 
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .login-form {
+    width: 300px;
+      height: 400px;
+      border-radius: 20px;
+    opacity: 0.7;
+    background: linear-gradient(to bottom, #2193b0 0%,#6dd5ed 100%);
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .list-container {
+    display: flex;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .title {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+    width: 250px;
+    height: 70px;
+    font-size: 20px;
+
+
+  }
+  .btna
+  {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #a7f6f6;
+    border: 1px solid #040404;
+    color: #0b0a0a;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
